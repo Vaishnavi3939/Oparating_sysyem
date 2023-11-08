@@ -1,0 +1,9 @@
+// use of if else in shell command 
+
+echo enter the value
+read age
+if[$age -ge 18]
+then echo you can vote 
+elso
+echo you can't vote 
+fi
