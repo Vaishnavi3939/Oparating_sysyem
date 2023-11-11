@@ -1,0 +1,20 @@
+//program create a child process using fork()
+//here the in c language >>
+#include<stdio.h>
+#include<sys/types.h>
+#include<stdlib.h>
+int main(){
+int pid; 
+pid=getpid();  //return process id of calling process
+printf("creating process pid is %d",pid);
+printf("forking a child process \n");
+pid = fork(); //creat a process
+if(pid==0){
+printf("child process id is %d and parent process id  is %d" getpid(), getpid());
+
+}
+else
+printf("parent id is %d", grtpid());
+
+
+}
